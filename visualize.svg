@@ -1,294 +1,254 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="446pt" height="925pt" viewBox="0.00 0.00 445.96 925.00">
-<g id="graph0" class="graph" transform="translate(-761.2838306427002,2729.8753509521484) scale(4)" data-name="G">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592pt" height="432pt" viewBox="0.00 0.00 592.08 431.56">
+<g id="graph0" class="graph" transform="translate(69.6967184788237,372.20294962684966) scale(0.7578582832552002)" data-name="G">
 
-<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-921 441.96,-921 441.96,4 -4,4" style=""/>
-<g id="clust1" class="cluster" data-name="clusterDEX">
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-427.56 588.08,-427.56 588.08,4 -4,4"/>
 
-<path fill="#445773" stroke="#445773" d="M20,-425C20,-425 287.19,-425 287.19,-425 293.19,-425 299.19,-431 299.19,-437 299.19,-437 299.19,-760 299.19,-760 299.19,-766 293.19,-772 287.19,-772 287.19,-772 20,-772 20,-772 14,-772 8,-766 8,-760 8,-760 8,-437 8,-437 8,-431 14,-425 20,-425" style=""/>
-<text text-anchor="middle" x="153.6" y="-755.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">DEX</text>
+
+
+
+
+<g id="edge1" class="edge" data-name="DEX.&lt;Constructor&gt;-&gt;DEX.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M439.37,-101.56C439.28,-101.56 439.2,-101.56 439.12,-101.56"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="448.87,-98.06 438.87,-101.56 448.87,-105.06 448.87,-98.06"/>
 </g>
-<g id="clust2" class="cluster" data-name="clusterIERC20">
 
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M191.05,-232C191.05,-232 305.96,-232 305.96,-232 311.96,-232 317.96,-238 317.96,-244 317.96,-244 317.96,-405 317.96,-405 317.96,-411 311.96,-417 305.96,-417 305.96,-417 191.05,-417 191.05,-417 185.05,-417 179.05,-411 179.05,-405 179.05,-405 179.05,-244 179.05,-244 179.05,-238 185.05,-232 191.05,-232" style=""/>
-<text text-anchor="middle" x="248.5" y="-400.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
-</g>
-<g id="clust3" class="cluster" data-name="clusterxInput">
 
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M364.96,-672C364.96,-672 410.96,-672 410.96,-672 416.96,-672 422.96,-678 422.96,-684 422.96,-684 422.96,-737 422.96,-737 422.96,-743 416.96,-749 410.96,-749 410.96,-749 364.96,-749 364.96,-749 358.96,-749 352.96,-743 352.96,-737 352.96,-737 352.96,-684 352.96,-684 352.96,-678 358.96,-672 364.96,-672" style=""/>
-<text text-anchor="middle" x="387.96" y="-732.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">xInput</text>
-</g>
-<g id="clust4" class="cluster" data-name="clusterxInputWithFee">
-
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M349.96,-587C349.96,-587 425.96,-587 425.96,-587 431.96,-587 437.96,-593 437.96,-599 437.96,-599 437.96,-652 437.96,-652 437.96,-658 431.96,-664 425.96,-664 425.96,-664 349.96,-664 349.96,-664 343.96,-664 337.96,-658 337.96,-652 337.96,-652 337.96,-599 337.96,-599 337.96,-593 343.96,-587 349.96,-587" style=""/>
-<text text-anchor="middle" x="387.96" y="-647.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">xInputWithFee</text>
-</g>
-<g id="clust5" class="cluster" data-name="clusterxReserves">
-
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M363.96,-502C363.96,-502 412.96,-502 412.96,-502 418.96,-502 424.96,-508 424.96,-514 424.96,-514 424.96,-567 424.96,-567 424.96,-573 418.96,-579 412.96,-579 412.96,-579 363.96,-579 363.96,-579 357.96,-579 351.96,-573 351.96,-567 351.96,-567 351.96,-514 351.96,-514 351.96,-508 357.96,-502 363.96,-502" style=""/>
-<text text-anchor="middle" x="388.46" y="-562.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">xReserves</text>
-</g>
-<g id="clust6" class="cluster" data-name="clustertotalLiquidity">
-
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M214.5,-93C214.5,-93 282.5,-93 282.5,-93 288.5,-93 294.5,-99 294.5,-105 294.5,-105 294.5,-212 294.5,-212 294.5,-218 288.5,-224 282.5,-224 282.5,-224 214.5,-224 214.5,-224 208.5,-224 202.5,-218 202.5,-212 202.5,-212 202.5,-105 202.5,-105 202.5,-99 208.5,-93 214.5,-93" style=""/>
-<text text-anchor="middle" x="248.5" y="-207.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">totalLiquidity</text>
-</g>
-<g id="clust7" class="cluster" data-name="clusteramount">
-
-<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M225.5,-8C225.5,-8 271.5,-8 271.5,-8 277.5,-8 283.5,-14 283.5,-20 283.5,-20 283.5,-73 283.5,-73 283.5,-79 277.5,-85 271.5,-85 271.5,-85 225.5,-85 225.5,-85 219.5,-85 213.5,-79 213.5,-73 213.5,-73 213.5,-20 213.5,-20 213.5,-14 219.5,-8 225.5,-8" style=""/>
-<text text-anchor="middle" x="248.5" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">amount</text>
-</g>
-<g id="clust8" class="cluster" data-name="cluster_01">
-
-<polygon fill="#2e3e56" stroke="black" points="10.53,-780 10.53,-909 283.5,-909 283.5,-780 10.53,-780" style=""/>
-<text text-anchor="middle" x="147.02" y="-892.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
-</g>
 <!-- DEX.&lt;Constructor&gt; -->
 <g id="node1" class="node" pointer-events="visible" data-name="DEX.&lt;Constructor&gt;">
 
-<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-721" rx="67.55" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-716.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="507.08" cy="-101.56" rx="67.55" ry="18"/>
+<text text-anchor="middle" x="507.08" y="-97.36" font-family="Times,serif" font-size="14.00">&lt;Constructor&gt;</text>
 </g>
 <!-- DEX.IERC20 -->
 <g id="node8" class="node" pointer-events="visible" data-name="DEX.IERC20">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-721" rx="42.88" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-716.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="435.08" cy="-101.56" rx="42.88" ry="18"/>
+<text text-anchor="middle" x="435.08" y="-97.36" font-family="Times,serif" font-size="14.00">IERC20</text>
+</g><g id="edge2" class="edge" data-name="DEX.init-&gt;IERC20.transferFrom" data-comment="DEX.IERC20">
+
+<path fill="none" stroke="white" stroke-width="2" d="M50.27,-318.13C50.42,-318.07 50.57,-318.01 50.72,-317.95"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="49.73,-322.14 57.63,-315.08 47.05,-315.68 49.73,-322.14"/>
 </g>
 <!-- DEX.&lt;Constructor&gt;&#45;&gt;DEX.IERC20 -->
-<g id="edge1" class="edge" data-name="DEX.&lt;Constructor&gt;-&gt;DEX.IERC20">
 
-<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M151.29,-721C165.86,-721 181.08,-721 195,-721" style=""/>
-<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="195.36,-724.5 205.36,-721 195.36,-717.5 195.36,-724.5" style=""/>
-</g>
 <!-- DEX.init -->
 <g id="node2" class="node" pointer-events="visible" data-name="DEX.init">
 
-<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="83.53" cy="-613" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-608.8" font-family="Times,serif" font-size="14.00" style="">init</text>
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="27" cy="-327.77" rx="27" ry="18"/>
+<text text-anchor="middle" x="27" y="-323.57" font-family="Times,serif" font-size="14.00">init</text>
 </g>
 <!-- IERC20.transferFrom -->
 <g id="node9" class="node" pointer-events="visible" data-name="IERC20.transferFrom">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-366" rx="61.41" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-361.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="93.52" cy="-300.22" rx="61.41" ry="18"/>
+<text text-anchor="middle" x="93.52" y="-296.02" font-family="Times,serif" font-size="14.00">transferFrom</text>
+</g><g id="edge3" class="edge" data-name="DEX.price-&gt;xInput.mul" data-comment="IERC20.transferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M322.93,-285.77C342.59,-283.27 368.47,-279.98 389.39,-277.33"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="390.04,-280.77 399.52,-276.04 389.15,-273.83 390.04,-280.77"/>
 </g>
 <!-- DEX.init&#45;&gt;IERC20.transferFrom -->
-<g id="edge2" class="edge" data-name="DEX.init-&gt;IERC20.transferFrom">
 
-<path fill="none" stroke="white" stroke-width="2" d="M109.96,-608.91C124.17,-605.29 140.98,-598.54 151.05,-586 197.63,-528.01 141.38,-485.14 179.05,-421 186.69,-407.99 198.66,-396.82 210.46,-388.01" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="212.8,-390.64 218.96,-382.02 208.77,-384.92 212.8,-390.64" style=""/>
-</g>
 <!-- DEX.price -->
 <g id="node3" class="node" pointer-events="visible" data-name="DEX.price">
 
-<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="248.5" cy="-613" rx="30.17" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-608.8" font-family="Times,serif" font-size="14.00" style="">price</text>
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="293.08" cy="-289.56" rx="30.17" ry="18"/>
+<text text-anchor="middle" x="293.08" y="-285.36" font-family="Times,serif" font-size="14.00">price</text>
+</g><g id="edge4" class="edge" data-name="DEX.price-&gt;xInputWithFee.mul" data-comment="DEX.price">
+
+<path fill="none" stroke="white" stroke-width="2" d="M307.56,-305.6C313.55,-312.24 320.62,-320.07 327.17,-327.32"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="324.69,-329.8 333.99,-334.88 329.89,-325.11 324.69,-329.8"/>
 </g>
 <!-- xInput.mul -->
 <g id="node12" class="node" pointer-events="visible" data-name="xInput.mul">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="387.96" cy="-698" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="387.96" y="-693.8" font-family="Times,serif" font-size="14.00" style="">mul</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="426.12" cy="-272.66" rx="27" ry="18"/>
+<text text-anchor="middle" x="426.12" y="-268.46" font-family="Times,serif" font-size="14.00">mul</text>
 </g>
 <!-- DEX.price&#45;&gt;xInput.mul -->
-<g id="edge3" class="edge" data-name="DEX.price-&gt;xInput.mul">
+<g id="edge5" class="edge" data-name="DEX.price-&gt;xReserves.mul" data-comment="DEX.price-&gt;xInput.mul">
 
-<path fill="none" stroke="white" stroke-width="2" d="M270.21,-625.93C288.12,-637.1 314.72,-653.66 337.96,-668 344.61,-672.11 351.78,-676.51 358.53,-680.64" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="357.03,-683.83 367.39,-686.06 360.68,-677.86 357.03,-683.83" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M278.6,-305.6C272.6,-312.24 265.53,-320.07 258.99,-327.32"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="256.27,-325.11 252.16,-334.88 261.46,-329.8 256.27,-325.11"/>
 </g>
 <!-- xInputWithFee.mul -->
 <g id="node13" class="node" pointer-events="visible" data-name="xInputWithFee.mul">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="387.96" cy="-613" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="387.96" y="-608.8" font-family="Times,serif" font-size="14.00" style="">mul</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.18" cy="-350.6" rx="27" ry="18"/>
+<text text-anchor="middle" x="348.18" y="-346.4" font-family="Times,serif" font-size="14.00">mul</text>
 </g>
 <!-- DEX.price&#45;&gt;xInputWithFee.mul -->
-<g id="edge4" class="edge" data-name="DEX.price-&gt;xInputWithFee.mul">
+<g id="edge7" class="edge" data-name="DEX.ethToToken-&gt;DEX.price" data-comment="DEX.price-&gt;xInputWithFee.mul">
 
-<path fill="none" stroke="white" stroke-width="2" d="M278.99,-613C299.97,-613 328.27,-613 350.64,-613" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="350.77,-616.5 360.77,-613 350.77,-609.5 350.77,-616.5" style=""/>
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M293.08,-235.73C293.08,-243.43 293.08,-252.58 293.08,-261.14"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="289.58,-261.14 293.08,-271.14 296.58,-261.14 289.58,-261.14"/>
 </g>
 <!-- xReserves.mul -->
 <g id="node14" class="node" pointer-events="visible" data-name="xReserves.mul">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="387.96" cy="-528" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="387.96" y="-523.8" font-family="Times,serif" font-size="14.00" style="">mul</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="237.97" cy="-350.6" rx="27" ry="18"/>
+<text text-anchor="middle" x="237.97" y="-346.4" font-family="Times,serif" font-size="14.00">mul</text>
 </g>
 <!-- DEX.price&#45;&gt;xReserves.mul -->
-<g id="edge5" class="edge" data-name="DEX.price-&gt;xReserves.mul">
+<g id="edge6" class="edge" data-name="DEX.ethToToken-&gt;IERC20.balanceOf" data-comment="DEX.price-&gt;xReserves.mul">
 
-<path fill="none" stroke="white" stroke-width="2" d="M270.08,-600.27C293.66,-585.69 332.44,-561.71 358.81,-545.41" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="360.91,-548.22 367.57,-539.99 357.23,-542.27 360.91,-548.22" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M285.55,-199.38C282.88,-192.93 279.8,-185.51 276.88,-178.46"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="280.1,-177.09 273.04,-169.19 273.64,-179.77 280.1,-177.09"/>
 </g>
 <!-- DEX.ethToToken -->
 <g id="node4" class="node" pointer-events="visible" data-name="DEX.ethToToken">
 
-<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="83.53" cy="-559" rx="58.46" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-554.8" font-family="Times,serif" font-size="14.00" style="">ethToToken</text>
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="293.08" cy="-217.56" rx="58.46" ry="18"/>
+<text text-anchor="middle" x="293.08" y="-213.36" font-family="Times,serif" font-size="14.00">ethToToken</text>
 </g>
 <!-- DEX.ethToToken&#45;&gt;DEX.price -->
-<g id="edge7" class="edge" data-name="DEX.ethToToken-&gt;DEX.price">
+<g id="edge8" class="edge" data-name="DEX.ethToToken-&gt;IERC20.transfer" data-comment="DEX.ethToToken-&gt;DEX.price">
 
-<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M123.98,-572.07C150.76,-580.94 185.88,-592.58 211.82,-601.18" style=""/>
-<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="211.04,-604.6 221.63,-604.43 213.24,-597.96 211.04,-604.6" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M328.28,-202.97C328.41,-202.92 328.53,-202.87 328.66,-202.82"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="321.88,-209.42 329.78,-202.36 319.2,-202.95 321.88,-209.42"/>
 </g>
-<!-- IERC20.balanceOf -->
-<g id="node10" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+<!-- IERC20.balanceOf --><!-- DEX.tokenToEth -->
+<g id="node10" class="node" pointer-events="visible" data-name="IERC20.balanceOf" data-comment="DEX.tokenToEth">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-312" rx="50.92" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-307.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="265.52" cy="-151.04" rx="50.92" ry="18"/>
+<text text-anchor="middle" x="265.52" y="-146.84" font-family="Times,serif" font-size="14.00">balanceOf</text>
 </g>
-<!-- DEX.ethToToken&#45;&gt;IERC20.balanceOf -->
-<g id="edge6" class="edge" data-name="DEX.ethToToken-&gt;IERC20.balanceOf">
-
-<path fill="none" stroke="white" stroke-width="2" d="M129.99,-547.99C138.05,-544.14 145.59,-538.97 151.05,-532 204.51,-463.78 125.26,-406.96 179.05,-339 183.42,-333.48 189.08,-329.09 195.27,-325.59" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="197.14,-328.57 204.63,-321.08 194.1,-322.27 197.14,-328.57" style=""/>
-</g>
-<!-- IERC20.transfer -->
-<g id="node11" class="node" pointer-events="visible" data-name="IERC20.transfer">
-
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-258" rx="40.55" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-253.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
-</g>
-<!-- DEX.ethToToken&#45;&gt;IERC20.transfer -->
-<g id="edge8" class="edge" data-name="DEX.ethToToken-&gt;IERC20.transfer">
-
-<path fill="none" stroke="white" stroke-width="2" d="M130.16,-548.12C138.2,-544.27 145.7,-539.05 151.05,-532 217.83,-443.99 111.84,-372.68 179.05,-285 184.7,-277.63 192.66,-272.27 201.17,-268.37" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="202.5,-271.6 210.53,-264.68 199.94,-265.09 202.5,-271.6" style=""/>
-</g>
-<!-- DEX.tokenToEth -->
-<g id="node5" class="node" pointer-events="visible" data-name="DEX.tokenToEth">
-
-<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-667" rx="56.76" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-662.8" font-family="Times,serif" font-size="14.00" style="">tokenToEth</text>
-</g>
-<!-- DEX.tokenToEth&#45;&gt;DEX.price -->
+<!-- DEX.ethToToken&#45;&gt;IERC20.balanceOf --><!-- DEX.tokenToEth&#45;&gt;DEX.price -->
 <g id="edge10" class="edge" data-name="DEX.tokenToEth-&gt;DEX.price">
 
-<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M123.56,-654.07C150.45,-645.16 185.89,-633.41 211.99,-624.77" style=""/>
-<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="213.1,-628.09 221.5,-621.62 210.9,-621.44 213.1,-628.09" style=""/>
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M213,-279.39C226.36,-281.09 240.48,-282.88 253.09,-284.48"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="252.9,-287.98 263.26,-285.77 253.79,-281.04 252.9,-287.98"/>
 </g>
-<!-- DEX.tokenToEth&#45;&gt;IERC20.transferFrom -->
-<g id="edge11" class="edge" data-name="DEX.tokenToEth-&gt;IERC20.transferFrom">
+<!-- IERC20.transfer --><!-- DEX.tokenToEth&#45;&gt;IERC20.transferFrom -->
+<g id="node11" class="node" pointer-events="visible" data-name="IERC20.transfer" data-comment="DEX.tokenToEth-&gt;IERC20.transferFrom">
 
-<path fill="none" stroke="white" stroke-width="2" d="M129.4,-656.39C137.71,-652.5 145.5,-647.21 151.05,-640 210.92,-562.25 131.1,-506.61 179.05,-421 186.43,-407.84 198.33,-396.63 210.16,-387.83" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="212.51,-390.46 218.69,-381.86 208.49,-384.73 212.51,-390.46" style=""/>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="359.6" cy="-190" rx="40.55" ry="18"/>
+<text text-anchor="middle" x="359.6" y="-185.8" font-family="Times,serif" font-size="14.00">transfer</text>
+</g><g id="edge11" class="edge" data-name="DEX.tokenToEth-&gt;IERC20.transferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M125.22,-287.09C125.16,-287.11 125.09,-287.14 125.03,-287.16"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="132.74,-280.18 124.84,-287.24 135.42,-286.65 132.74,-280.18"/>
 </g>
-<!-- DEX.tokenToEth&#45;&gt;IERC20.balanceOf -->
+<!-- DEX.ethToToken&#45;&gt;IERC20.transfer --><!-- DEX.tokenToEth&#45;&gt;IERC20.balanceOf -->
 <g id="edge9" class="edge" data-name="DEX.tokenToEth-&gt;IERC20.balanceOf">
 
-<path fill="none" stroke="white" stroke-width="2" d="M129.93,-656.37C138.1,-652.49 145.7,-647.2 151.05,-640 231.18,-532.15 98.39,-446.45 179.05,-339 183.28,-333.37 188.85,-328.91 195.01,-325.39" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="196.87,-328.37 204.34,-320.85 193.81,-322.07 196.87,-328.37" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M175.15,-255.24C193.09,-234.56 223.14,-199.9 243.63,-176.29"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="246.53,-178.28 250.44,-168.43 241.24,-173.69 246.53,-178.28"/>
 </g>
-<!-- DEX.deposit -->
+<g id="node5" class="node" pointer-events="visible" data-name="DEX.tokenToEth" data-comment="DEX.tokenToEth-&gt;IERC20.balanceOf">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="160.04" cy="-272.66" rx="56.76" ry="18"/>
+<text text-anchor="middle" x="160.04" y="-268.46" font-family="Times,serif" font-size="14.00">tokenToEth</text>
+</g><!-- DEX.deposit -->
 <g id="node6" class="node" pointer-events="visible" data-name="DEX.deposit">
 
-<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="83.53" cy="-505" rx="38.86" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-500.8" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+<ellipse fill="#ff9797" stroke="brown" stroke-width="3" cx="160.04" cy="-162.45" rx="38.86" ry="18"/>
+<text text-anchor="middle" x="160.04" y="-158.25" font-family="Times,serif" font-size="14.00">deposit</text>
 </g>
 <!-- DEX.deposit&#45;&gt;IERC20.transferFrom -->
 <g id="edge14" class="edge" data-name="DEX.deposit-&gt;IERC20.transferFrom">
 
-<path fill="none" stroke="white" stroke-width="2" d="M118.37,-496.6C129.78,-492.47 141.93,-486.5 151.05,-478 171.71,-458.76 161.41,-443.03 179.05,-421 188.89,-408.72 201.91,-397.41 213.96,-388.27" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="216.1,-391.04 222.1,-382.31 211.96,-385.4 216.1,-391.04" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M151.48,-180.18C140.12,-203.71 119.94,-245.49 106.65,-273.03"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="103.45,-271.59 102.26,-282.12 109.76,-274.64 103.45,-271.59"/>
 </g>
 <!-- DEX.deposit&#45;&gt;IERC20.balanceOf -->
 <g id="edge12" class="edge" data-name="DEX.deposit-&gt;IERC20.balanceOf">
 
-<path fill="none" stroke="white" stroke-width="2" d="M119.67,-497.83C131.21,-493.82 143.1,-487.6 151.05,-478 191.26,-429.48 138.6,-387.32 179.05,-339 183.57,-333.6 189.31,-329.28 195.55,-325.81" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="197.42,-328.8 204.94,-321.33 194.41,-322.48 197.42,-328.8" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M198.12,-158.33C200.85,-158.04 203.63,-157.73 206.44,-157.43"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="207.1,-160.88 216.66,-156.33 206.34,-153.92 207.1,-160.88"/>
 </g>
 <!-- totalLiquidity.add -->
 <g id="node15" class="node" pointer-events="visible" data-name="totalLiquidity.add">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-173" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-168.8" font-family="Times,serif" font-size="14.00" style="">add</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="93.52" cy="-134.9" rx="27" ry="18"/>
+<text text-anchor="middle" x="93.52" y="-130.7" font-family="Times,serif" font-size="14.00">add</text>
 </g>
 <!-- DEX.deposit&#45;&gt;totalLiquidity.add -->
 <g id="edge13" class="edge" data-name="DEX.deposit-&gt;totalLiquidity.add">
 
-<path fill="none" stroke="white" stroke-width="2" d="M119.8,-498.33C131.49,-494.35 143.45,-488.03 151.05,-478 218.57,-388.88 125.18,-325.97 179.05,-228 187.99,-211.74 203.91,-198.51 218.15,-189.1" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="220.09,-192.01 226.72,-183.74 216.38,-186.07 220.09,-192.01" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M130.67,-150.29C129.19,-149.67 127.7,-149.06 126.21,-148.44"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="127.12,-145.03 116.54,-144.43 124.44,-151.49 127.12,-145.03"/>
 </g>
 <!-- DEX.withdraw -->
 <g id="node7" class="node" pointer-events="visible" data-name="DEX.withdraw">
 
-<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-451" rx="47.52" ry="18" style=""/>
-<text text-anchor="middle" x="83.53" y="-446.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="293.08" cy="-73.56" rx="47.52" ry="18"/>
+<text text-anchor="middle" x="293.08" y="-69.36" font-family="Times,serif" font-size="14.00">withdraw</text>
 </g>
 <!-- DEX.withdraw&#45;&gt;IERC20.balanceOf -->
 <g id="edge15" class="edge" data-name="DEX.withdraw-&gt;IERC20.balanceOf">
 
-<path fill="none" stroke="white" stroke-width="2" d="M95.26,-433.5C110.93,-409.25 142.26,-365.42 179.05,-339 185.19,-334.59 192.14,-330.78 199.21,-327.53" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="201.01,-330.56 208.84,-323.43 198.27,-324.12 201.01,-330.56" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M286.69,-91.53C283.31,-101.01 279.1,-112.86 275.33,-123.48"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="271.93,-122.57 271.88,-133.17 278.53,-124.92 271.93,-122.57"/>
 </g>
 <!-- DEX.withdraw&#45;&gt;IERC20.transfer -->
 <g id="edge19" class="edge" data-name="DEX.withdraw-&gt;IERC20.transfer">
 
-<path fill="none" stroke="white" stroke-width="2" d="M90.19,-433.15C101.68,-399.61 130.82,-326.83 179.05,-285 186.07,-278.91 194.62,-274.11 203.27,-270.34" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="204.6,-273.58 212.63,-266.66 202.04,-267.07 204.6,-273.58" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M303.18,-91.24C314.18,-110.51 331.9,-141.52 344.54,-163.65"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="341.62,-165.59 349.62,-172.53 347.7,-162.11 341.62,-165.59"/>
 </g>
 <!-- totalLiquidity.sub -->
 <g id="node16" class="node" pointer-events="visible" data-name="totalLiquidity.sub">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-119" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-114.8" font-family="Times,serif" font-size="14.00" style="">sub</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="210.42" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="210.42" y="-13.8" font-family="Times,serif" font-size="14.00">sub</text>
 </g>
 <!-- DEX.withdraw&#45;&gt;totalLiquidity.sub -->
 <g id="edge18" class="edge" data-name="DEX.withdraw-&gt;totalLiquidity.sub">
 
-<path fill="none" stroke="white" stroke-width="2" d="M84.93,-432.89C87.06,-381.2 100.07,-231.15 179.05,-146 187.88,-136.49 200.47,-130.27 212.46,-126.24" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="213.69,-129.52 222.29,-123.33 211.71,-122.81 213.69,-129.52" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M269.61,-57.79C259.79,-51.19 248.31,-43.47 238.08,-36.59"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="239.74,-33.49 229.49,-30.82 235.84,-39.3 239.74,-33.49"/>
 </g>
 <!-- amount.mul -->
 <g id="node17" class="node" pointer-events="visible" data-name="amount.mul">
 
-<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-34" rx="27" ry="18" style=""/>
-<text text-anchor="middle" x="248.5" y="-29.8" font-family="Times,serif" font-size="14.00" style="">mul</text>
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="375.74" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="375.74" y="-13.8" font-family="Times,serif" font-size="14.00">mul</text>
 </g>
 <!-- DEX.withdraw&#45;&gt;amount.mul -->
 <g id="edge16" class="edge" data-name="DEX.withdraw-&gt;amount.mul">
 
-<path fill="none" stroke="white" stroke-width="2" d="M85.12,-432.68C87.86,-375.33 102.61,-198.04 179.05,-80 188.01,-66.17 201.6,-54.22 214.32,-45.7" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="216.26,-48.61 222.92,-40.37 212.57,-42.66 216.26,-48.61" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M324.65,-60.08C334.42,-54.08 344.97,-46.94 353.93,-40.22"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="356.24,-42.86 361.98,-33.95 351.94,-37.34 356.24,-42.86"/>
 </g>
 <!-- DEX.withdraw&#45;&gt;amount.mul -->
 <g id="edge17" class="edge" data-name="DEX.withdraw-&gt;amount.mul">
 
-<path fill="none" stroke="white" stroke-width="2" d="M85.56,-432.94C89.27,-377.89 105.97,-210.86 179.05,-98 190.41,-80.46 209.24,-65.93 224.27,-54.84" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="226.62,-57.45 232.6,-48.71 222.47,-51.82 226.62,-57.45" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M308.23,-56.48C318.03,-48.64 331.12,-39.54 343.17,-32.09"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="345.32,-34.88 352.12,-26.76 341.74,-28.87 345.32,-34.88"/>
 </g>
 <!-- key -->
 <g id="node18" class="node" pointer-events="visible" data-name="key">
 
-<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="148.53,-876 18.53,-876 18.53,-788 148.53,-788 148.53,-876" style=""/>
-<text text-anchor="start" x="68.16" y="-857.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
-<text text-anchor="start" x="64.27" y="-837.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
-<text text-anchor="start" x="41.73" y="-817.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
-<text text-anchor="start" x="28.13" y="-797.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="584.08,-423.56 454.08,-423.56 454.08,-335.56 584.08,-335.56 584.08,-423.56"/>
+<text text-anchor="start" x="503.72" y="-404.96" font-family="Times,serif" font-size="14.00">Internal Call</text>
+<text text-anchor="start" x="499.83" y="-384.96" font-family="Times,serif" font-size="14.00">External Call</text>
+<text text-anchor="start" x="477.28" y="-364.96" font-family="Times,serif" font-size="14.00">Defined Contract</text>
+<text text-anchor="start" x="463.68" y="-344.96" font-family="Times,serif" font-size="14.00">Undefined Contract</text>
 </g>
 <!-- key2 -->
 <g id="node19" class="node" pointer-events="visible" data-name="key2">
 
-<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="275.5,-876 221.5,-876 221.5,-788 275.5,-788 275.5,-876" style=""/>
-<text text-anchor="start" x="238.5" y="-857.4" font-family="Times,serif" font-size="14.00" style="">   </text>
-<text text-anchor="start" x="238.5" y="-837.4" font-family="Times,serif" font-size="14.00" style="">   </text>
-<polygon fill="#445773" stroke="transparent" points="236.5,-812 236.5,-832 261.5,-832 261.5,-812 236.5,-812" style=""/>
-<text text-anchor="start" x="238.5" y="-817.4" font-family="Times,serif" font-size="14.00" style="">   </text>
-<polygon fill="none" stroke="#e8726d" points="238.5,-794 238.5,-810 259.5,-810 259.5,-794 238.5,-794" style=""/>
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="474.08,-423.56 420.08,-423.56 420.08,-335.56 474.08,-335.56 474.08,-423.56"/>
+<text text-anchor="start" x="437.08" y="-404.96" font-family="Times,serif" font-size="14.00">   </text>
+<text text-anchor="start" x="437.08" y="-384.96" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="#445773" stroke="transparent" points="435.08,-359.56 435.08,-379.56 460.08,-379.56 460.08,-359.56 435.08,-359.56"/>
+<text text-anchor="start" x="437.08" y="-364.96" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="none" stroke="#e8726d" points="437.08,-341.56 437.08,-357.56 458.08,-357.56 458.08,-341.56 437.08,-341.56"/>
 </g>
 <!-- key&#45;&gt;key2 -->
 <g id="edge20" class="edge" data-name="key-&gt;key2">
 
-<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M141.53,-862C179.7,-862 191.71,-862 225.39,-862" style=""/>
-<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="225.5,-865.5 235.5,-862 225.5,-858.5 225.5,-865.5" style=""/>
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M576.08,-409.56C576.08,-409.56 477.55,-409.56 445.22,-409.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="445.08,-406.06 435.08,-409.56 445.08,-413.06 445.08,-406.06" style=""/>
 </g>
 <!-- key&#45;&gt;key2 -->
 <g id="edge21" class="edge" data-name="key-&gt;key2">
 
-<path fill="none" stroke="white" stroke-width="2" d="M141.53,-842C179.7,-842 191.71,-842 225.39,-842" style=""/>
-<polygon fill="white" stroke="white" stroke-width="2" points="225.5,-845.5 235.5,-842 225.5,-838.5 225.5,-845.5" style=""/>
+<path fill="none" stroke="white" stroke-width="2" d="M576.08,-389.56C576.08,-389.56 477.55,-389.56 445.22,-389.56" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="445.08,-386.06 435.08,-389.56 445.08,-393.06 445.08,-386.06" style=""/>
 </g>
 </g>
 </svg>

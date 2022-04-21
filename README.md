@@ -357,4 +357,4 @@ This will be the URL you submit to [SpeedRun](https://speedrunethereum.com).
 
 ```
 
-<img alt="https://raw.githubusercontent.com/EngrGord/DEX/master/visualize.svg/controllers_brief.svg?sanitize=true" align="right" src="https://raw.githubusercontent.com/EngrGord/DEX/master/visualize.svg" width="400px"/>
+<img alt="https://raw.githubusercontent.com/EngrGord/DEX/master/visualize.svg/controllers_brief.svg?sanitize=true" align="right" src="https://raw.githubusercontent.com/EngrGord/DEX/master/visualize.svg" width="100%"/>
