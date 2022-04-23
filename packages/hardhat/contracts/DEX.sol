@@ -99,6 +99,7 @@ contract DEX {
         uint256 tokenOutput = price(msg.value, ethReserve, token_reserve);
 
         //  totalLiquidity = totalLiquidity.sub(tokenOutput); //update totalLiquidity? I guess you don't because even though liquidity is changing... it isn't in a macro-scale? We still have the same amount of liquidity in "total" but just different asset ratios.
+        //use revert to save gas
         require(token.transfer(msg.sender, tokenOutput), "ethToToken(): reverted swap.");
         return tokenOutput;
         emit EthToTokenSwap(msg.sender, tokenOutput, msg.value);
@@ -116,6 +117,7 @@ contract DEX {
         //  totalLiquidity = totalLiquidity.add(tokenInput); //update totalLiquidity
         require(token.transferFrom(msg.sender, address(this), tokenInput), "tokenToEth(): reverted swap.");
         (bool sent, ) = msg.sender.call{ value: ethOutput }("");
+        //use revert to save gas
         require(sent, "tokenToEth: revert in transferring eth to you!");
         return ethOutput;
         emit TokenToEthSwap(msg.sender, ethOutput, tokenInput);
@@ -134,6 +136,8 @@ contract DEX {
         uint256 liquidityMinted = msg.value.mul(totalLiquidity / ethReserve);
         liquidity[msg.sender] = liquidity[msg.sender].add(liquidityMinted);
         totalLiquidity = totalLiquidity.add(liquidityMinted);
+
+        //use revert to save gas
 
         require(token.transferFrom(msg.sender, address(this), tokenDeposit));
         return tokenDeposit;
@@ -161,7 +165,10 @@ contract DEX {
         liquidity[msg.sender] = liquidity[msg.sender].sub(ethWithdrawn);
         totalLiquidity = totalLiquidity.sub(ethWithdrawn);
         (bool sent, ) = msg.sender.call{ value: ethWithdrawn }("");
+        //use revert to save gas
         require(sent, "withdraw(): revert in transferring eth to you!");
+
+        
         require(token.transfer(msg.sender, tokenAmount));
 
         return (ethWithdrawn, tokenAmount);
