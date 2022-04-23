@@ -70,6 +70,7 @@ contract DEX {
         require(totalLiquidity == 0, "DEX: init - already has liquidity");
         totalLiquidity = address(this).balance;
         liquidity[msg.sender] = totalLiquidity;
+        //use revert to save gas
         require(token.transferFrom(msg.sender, address(this), tokens), "DEX: init - transfer did not transact");
         return totalLiquidity;
     }
